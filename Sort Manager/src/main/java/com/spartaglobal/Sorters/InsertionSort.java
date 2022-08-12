@@ -15,7 +15,7 @@ public class InsertionSort {
         ConsoleHandler consoleHandler = new ConsoleHandler();
         consoleHandler.setLevel(Level.INFO);
         consoleHandler.setFormatter(new CustomFormatter());
-        isLogger.setLevel(Level.INFO);
+        isLogger.setLevel(Level.OFF);
         isLogger.addHandler(consoleHandler);
     }
 
@@ -24,8 +24,9 @@ public class InsertionSort {
      * @param array
      * @return int[]
      */
-    public static int[]  insertSort(int [] array){
+    public static void insertSort(int [] array){
         logSetUp();
+        long startTime = System.nanoTime();
 
         isLogger.log(Level.INFO, "Starting Insertion Sort");
         // get the length of the array
@@ -49,6 +50,8 @@ public class InsertionSort {
         }
 
         System.out.println(Arrays.toString(array));
-        return array;
+        long stopTime = System.nanoTime();
+        long elapsedTime = stopTime - startTime;
+        System.out.println("Time Taken = " + elapsedTime + " nano second's");
     }
 }

@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d73bce37-00fc-4ce9-99fe-d1c837067e39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/ScannerInput/ScannerInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/ScannerInput/ScannerInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Loggers/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Loggers/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Loggers/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Loggers/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/ScannerInput/ScannerInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/ScannerInput/ScannerInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/QuickSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +102,7 @@
       <module name="Sort Manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spartaglobal.ScannerInput.*" />
+          <option name="PATTERN" value="com.spartaglobal.ScannerInput.ScannerInput" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,5 +143,16 @@
       <updated>1660213572114</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
