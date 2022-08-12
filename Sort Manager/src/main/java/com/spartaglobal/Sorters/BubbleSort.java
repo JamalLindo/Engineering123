@@ -23,7 +23,7 @@ public class BubbleSort {
      * @param numbers
      * @return int[]
      */
-    public static void bubbleSort(int[] numbers){
+    public static int[] bubbleSort(int[] numbers){
         logSetUp();
         long startTime = System.nanoTime();
 
@@ -51,6 +51,7 @@ public class BubbleSort {
         long stopTime = System.nanoTime();
         long elapsedTime = stopTime - startTime;
         System.out.println("Time Taken = " + elapsedTime + " nano second's");
+        return numbers;
     }
 
 
