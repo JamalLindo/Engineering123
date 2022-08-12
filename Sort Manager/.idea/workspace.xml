@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d73bce37-00fc-4ce9-99fe-d1c837067e39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spartaglobal/Sorters/BubbleSortTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spartaglobal/Sorters/BubbleSortTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Sorters/BubbleSortTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Sorters/BubbleSortTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Test/Controller/ControllerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Test/Controller/ControllerTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Tests/Scanner/ScannerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Tests/Scanner/ScannerTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spartaglobal/Sorters/QuickSortTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spartaglobal/Sorters/QuickSortTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
