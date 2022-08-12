@@ -9,7 +9,6 @@ import static com.spartaglobal.Sorters.QuickSort.quickSort;
 
 public class QuickSortTester {
 
-
     @Test
     public void testQuickSort() {
         int[] unsortedArray = {7 ,82 ,1 ,29 ,21 ,22 ,9};
