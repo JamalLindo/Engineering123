@@ -1,0 +1,3 @@
+INFO This is a info log test
+2022-08-12 my logger WARNING This is a Warning log test
+FINE This is a FINE log test
