@@ -14,7 +14,7 @@ public class BubbleSort {
         ConsoleHandler consoleHandler = new ConsoleHandler();
         consoleHandler.setLevel(Level.INFO);
         consoleHandler.setFormatter(new CustomFormatter());
-        bsLogger.setLevel(Level.INFO);
+        bsLogger.setLevel(Level.OFF);
         bsLogger.addHandler(consoleHandler);
     }
 
@@ -23,8 +23,9 @@ public class BubbleSort {
      * @param numbers
      * @return int[]
      */
-    public static int[]  bubbleSort(int[] numbers){
+    public static void bubbleSort(int[] numbers){
         logSetUp();
+        long startTime = System.nanoTime();
 
         bsLogger.log(Level.INFO, "Starting Bubble Sort");
         // get length of array
@@ -47,6 +48,10 @@ public class BubbleSort {
         }
         // Print statement for Bubble Sort
         System.out.println("Sorted Array = " + Arrays.toString(numbers));
-        return numbers;
+        long stopTime = System.nanoTime();
+        long elapsedTime = stopTime - startTime;
+        System.out.println("Time Taken = " + elapsedTime + " nano second's");
     }
+
+
 }

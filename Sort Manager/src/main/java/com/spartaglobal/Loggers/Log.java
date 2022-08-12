@@ -16,7 +16,6 @@ public class Log {
         consoleHandler.setLevel(Level.ALL);
         consoleHandler.setFormatter(new CustomFormatter());
 
-
         logger.setLevel(Level.ALL);
         logger.addHandler(consoleHandler);
         logger.log(Level.INFO, "This is a info log test");

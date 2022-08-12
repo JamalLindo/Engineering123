@@ -1,9 +1,6 @@
 package com.spartaglobal.Controller;
 
-import com.spartaglobal.Sorters.BubbleSort;
-import com.spartaglobal.Sorters.InsertionSort;
-import com.spartaglobal.Sorters.QuickSort;
-import com.spartaglobal.Sorters.SplitMergeSort;
+import com.spartaglobal.Sorters.*;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -17,17 +14,24 @@ public class Controller {
         if(choice == 1){
             System.out.println("you have chosen BubbleSort : " + choice);
             BubbleSort.bubbleSort(array);
-            ScannerSort();
+            System.exit(1);
         }else if (choice == 2){
             System.out.println("you have chosen InsertionSort : " + choice);
             InsertionSort.insertSort(array);
+            System.exit(1);
         }else if (choice == 3){
             System.out.println("you have chosen QuickSort : " + choice);
             QuickSort.quickSort(array);
+            System.exit(1);
         }else if (choice == 4){
             System.out.println("you have chosen MergeSort : " + choice);
-            SplitMergeSort.splitMergeArray(array);
+            //SplitMergeSort.splitMergeArray(array);
+            System.exit(1);
         }else if (choice == 5){
+            System.out.println("you have chosen SelectionSort : " + choice);
+            //SelectionSort
+            System.exit(1);
+        }else if (choice == 6){
             System.out.println("you have chosen to exit ");
             System.exit(1);
         }else{
