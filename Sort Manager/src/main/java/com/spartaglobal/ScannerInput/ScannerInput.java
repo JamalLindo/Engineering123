@@ -16,7 +16,7 @@ public class ScannerInput {
     public static int ArraySort(){
         Scanner myObj = new Scanner(System.in);
         System.out.println("Boundary of the array will be -1,000 to 1000");
-        System.out.print("What will be the index of your array : ");
+        System.out.print("What will be the index of your array be : ");
 
         int ArrayIndex = myObj.nextInt();
         System.out.println("Array length will be : " + ArrayIndex);
