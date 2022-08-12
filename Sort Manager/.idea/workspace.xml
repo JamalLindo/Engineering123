@@ -6,17 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d73bce37-00fc-4ce9-99fe-d1c837067e39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Loggers/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Loggers/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spartaglobal/Sorters/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spartaglobal/Sorters/BubbleSortTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spartaglobal/Sorters/BubbleSortTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Loggers/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Loggers/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/ScannerInput/ScannerInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/ScannerInput/ScannerInput.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/InsertionSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spartaglobal/Sorters/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Sorters/BubbleSortTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Sorters/BubbleSortTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Test/Controller/ControllerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Test/Controller/ControllerTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Tests/Scanner/ScannerTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spartaglobal/Tests/Scanner/ScannerTester.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,46 +55,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.ScannerInput">
-    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spartaglobal.Controller.Controller" />
-      <module name="Sort Manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spartaglobal.Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spartaglobal.Sorters.InsertionSort" />
-      <module name="Sort Manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spartaglobal.Sorters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spartaglobal.Loggers.Log" />
-      <module name="Sort Manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spartaglobal.Loggers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QuickSortTester.testQuickSort">
     <configuration name="ScannerInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spartaglobal.ScannerInput.ScannerInput" />
       <module name="Sort Manager" />
@@ -110,8 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spartaglobal.Sorters.SplitMergeSort" />
+    <configuration name="BubbleSortTester.testArrayOfSizeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sort Manager" />
       <extension name="coverage">
         <pattern>
@@ -119,17 +77,69 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.spartaglobal.Sorters" />
+      <option name="MAIN_CLASS_NAME" value="com.spartaglobal.Sorters.BubbleSortTester" />
+      <option name="METHOD_NAME" value="testArrayOfSizeOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortTester.testBubblesort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sort Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spartaglobal.Sorters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spartaglobal.Sorters" />
+      <option name="MAIN_CLASS_NAME" value="com.spartaglobal.Sorters.BubbleSortTester" />
+      <option name="METHOD_NAME" value="testBubblesort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortTester.testInsertionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sort Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spartaglobal.Sorters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spartaglobal.Sorters" />
+      <option name="MAIN_CLASS_NAME" value="com.spartaglobal.Sorters.InsertionSortTester" />
+      <option name="METHOD_NAME" value="testInsertionSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTester.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sort Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spartaglobal.Sorters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spartaglobal.Sorters" />
+      <option name="MAIN_CLASS_NAME" value="com.spartaglobal.Sorters.QuickSortTester" />
+      <option name="METHOD_NAME" value="testQuickSort" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuickSortTester.testQuickSort" />
+        <item itemvalue="JUnit.InsertionSortTester.testInsertionSort" />
         <item itemvalue="Application.ScannerInput" />
-        <item itemvalue="Application.Log" />
-        <item itemvalue="Application.SplitMergeSort" />
-        <item itemvalue="Application.Controller" />
-        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="JUnit.BubbleSortTester.testBubblesort" />
+        <item itemvalue="JUnit.BubbleSortTester.testArrayOfSizeOne" />
       </list>
     </recent_temporary>
   </component>

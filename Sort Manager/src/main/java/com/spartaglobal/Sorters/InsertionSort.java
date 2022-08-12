@@ -24,7 +24,7 @@ public class InsertionSort {
      * @param array
      * @return int[]
      */
-    public static void insertSort(int [] array){
+    public static int[] insertSort(int [] array){
         logSetUp();
         long startTime = System.nanoTime();
 
@@ -53,5 +53,6 @@ public class InsertionSort {
         long stopTime = System.nanoTime();
         long elapsedTime = stopTime - startTime;
         System.out.println("Time Taken = " + elapsedTime + " nano second's");
+        return array;
     }
 }
