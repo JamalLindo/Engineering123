@@ -1,6 +1,5 @@
 package com.spartaglobal.Controller;
 
-
 import com.spartaglobal.Sorters.BubbleSort;
 import com.spartaglobal.Sorters.InsertionSort;
 import com.spartaglobal.Sorters.QuickSort;
@@ -10,7 +9,6 @@ import java.util.Arrays;
 import java.util.Random;
 
 import static com.spartaglobal.ScannerInput.ScannerInput.ScannerSort;
-
 
 public class Controller {
 
@@ -29,6 +27,9 @@ public class Controller {
         }else if (choice == 4){
             System.out.println("you have chosen MergeSort : " + choice);
             SplitMergeSort.splitMergeArray(array);
+        }else if (choice == 5){
+            System.out.println("you have chosen to exit ");
+            System.exit(1);
         }else{
             System.out.println("you haven't chosen a sorting method. ");
             ScannerSort();
